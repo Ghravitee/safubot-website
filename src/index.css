@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #030515;
+}
+
+.grad {
+  background: radial-gradient(
+    circle at -100% -250%,
+    rgba(160, 174, 229, 0.28),
+    rgba(3, 5, 21, 0) 83%
+  );
+}
+
+.hero-bg {
+  background-image: url("./assets/ui-bg-overlay-grid.svg");
+  background-repeat: repeat;
+  background-size: cover;
+}
