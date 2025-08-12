@@ -15,7 +15,7 @@ export default function Navbar({
       <div className="flex items-center space-x-2">
         <img src={logo} alt="" className="w-8 h-8" />
         <div className="text-white">
-          <p className="text-3xl font-bold tracking-widest">BOLT</p>
+          <p className="lg:text-3xl text-xl font-bold tracking-widest">BOLT</p>
           <p>TRADING BOT</p>
         </div>
       </div>
@@ -37,7 +37,9 @@ export default function Navbar({
 
       <div className="hidden md:block">
         <a
-          href="#_"
+          href="https://t.me/safubolt"
+          target="_blank"
+          rel="noopener noreferrer"
           className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
         >
           <span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>

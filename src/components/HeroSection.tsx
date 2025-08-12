@@ -8,7 +8,7 @@ import {
 
 export default function HeroSection() {
   return (
-    <section className="container mx-auto px-4 pt-10 hero-bg h-screen flex flex-col">
+    <section className="container mx-auto px-4 pt-10 hero-bg min-h-screen flex flex-col">
       <div className="max-w-4xl mx-auto text-center">
         {/* Badge */}
         <motion.div
@@ -63,10 +63,12 @@ export default function HeroSection() {
           variants={zoomIn(0.8, 0.6)}
           initial="hidden"
           animate="show"
-          className="flex flex-col sm:flex-row justify-center gap-4"
+          className="flex justify-center gap-4"
         >
           <a
-            href="#_"
+            href="https://t.me/safubolt"
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
           >
             <span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>

@@ -9,9 +9,9 @@ export default function CtaSection() {
           Join the <span className="text-[#3B82F6]">Movement</span>
         </h2>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
+        <div className="flex w-fit flex-row justify-center mx-auto gap-4 mb-10">
           <a
-            href="#_"
+            href="https://t.me/safubolt"
             className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
           >
             <span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -37,7 +37,7 @@ export default function CtaSection() {
 
         <div className="flex justify-center items-center gap-2 mt-1">
           <a
-            href=""
+            href="https://x.com/SafuboltBot?t=pEUvZTb8NPtFkjvHSc1GZg&s=08"
             className="p-3 rounded-full border border-black/50 dark:border-white/50 dark:text-white"
             target="_blank"
             rel="noopener noreferrer"
@@ -46,7 +46,12 @@ export default function CtaSection() {
             <FaXTwitter className="text-black dark:text-white text-[15px]" />
           </a>
 
-          <a href="" className="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://t.me/+BAS4t9NsNWIxZTY0"
+            className=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTelegram className="text-black dark:text-white text-[40px]" />
           </a>
         </div>
