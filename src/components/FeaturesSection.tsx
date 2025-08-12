@@ -62,7 +62,7 @@ export default function FeaturesSection() {
               key={index}
               className={`p-8 rounded-2xl relative flex flex-col justify-between
                 ${index === 0 ? "lg:col-span-2" : ""}
-                ${index === 5 ? "lg:col-span-2 lg:col-start-2" : "col-span-1"}
+                ${index === 5 ? "lg:col-span-1 lg:col-start-2" : "col-span-1"}
               `}
               style={{
                 zIndex: 1,
