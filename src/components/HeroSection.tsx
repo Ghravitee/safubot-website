@@ -17,7 +17,7 @@ export default function HeroSection() {
           animate="visible"
           className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-full mb-6"
         >
-          <span className="text-[1.5rem]">Bolt Trading Bot</span>
+          <span className="lg:text-[1.5rem]">Bolt Trading Bot</span>
         </motion.div>
 
         {/* Heading */}
@@ -25,7 +25,7 @@ export default function HeroSection() {
           variants={slideInFromLeft(0.2)}
           initial="hidden"
           animate="visible"
-          className="text-4xl md:text-6xl font-bold mb-6"
+          className="text-3xl md:text-6xl font-bold mb-6"
         >
           The Future of{" "}
           <span className="text-[#3B82F6]">Decentralized Token</span> Trading
@@ -36,7 +36,7 @@ export default function HeroSection() {
           variants={fadeIn("up", "tween", 0.4, 0.8)}
           initial="hidden"
           animate="show"
-          className="text-xl text-white mb-10"
+          className="text-lg lg:text-xl text-white mb-10"
         >
           In the fast-paced world of DeFi, speed, precision, and security make
           the difference between a winning trade and a missed opportunity.
@@ -50,7 +50,7 @@ export default function HeroSection() {
           variants={fadeIn("up", "tween", 0.6, 0.8)}
           initial="hidden"
           animate="show"
-          className="text-xl text-gray-400 mb-10"
+          className=" text-base lg:text-xl text-gray-400 mb-10"
         >
           Our mission is simple:{" "}
           <span className="font-bold">
@@ -63,13 +63,13 @@ export default function HeroSection() {
           variants={zoomIn(0.8, 0.6)}
           initial="hidden"
           animate="show"
-          className="flex justify-center gap-4"
+          className="flex flex-col sm:flex-row justify-center items-center gap-4"
         >
           <a
             href="https://t.me/safubolt"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
+            className="relative inline-flex w-fit items-center px-12 py-2 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
           >
             <span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
             <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">

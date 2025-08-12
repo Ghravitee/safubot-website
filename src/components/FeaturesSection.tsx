@@ -52,7 +52,7 @@ export default function FeaturesSection() {
   return (
     <section id="why-bolt" className="container mx-auto px-4 py-10">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold mb-10 text-center">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
           Why Choose <span className="text-[#3B82F6]">Bolt Trading Bot?</span>
         </h2>
 

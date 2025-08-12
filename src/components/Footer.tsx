@@ -4,16 +4,18 @@ export default function Footer() {
   return (
     <footer className="py-12">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center space-x-2">
+        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex items-center">
             <img src={logo} alt="" className="w-8 h-8" />
             <div className="text-white">
-              <p className="text-3xl font-bold tracking-widest">BOLT</p>
-              <p>TRADING BOT</p>
+              <p className="lg:text-3xl text-2xl font-bold tracking-widest ">
+                BOLT
+              </p>
+              <p className="-mt-2 text-sm">TRADING BOT</p>
             </div>
           </div>
 
-          <div className="flex space-x-6">
+          <div className="flex space-x-6 text-sm sm:text-base">
             <a href="#why-bolt" className="hover:text-[#3B82F6] transition">
               Why Bolt
             </a>
