@@ -5,7 +5,7 @@ export default function CtaSection() {
   return (
     <section className="container mx-auto px-4 py-6 ">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">
+        <h2 className="text-3xl font-bold mb-6 raj">
           Join the <span className="text-[#3B82F6]">Movement</span>
         </h2>
 

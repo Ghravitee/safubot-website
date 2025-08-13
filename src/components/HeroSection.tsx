@@ -41,7 +41,7 @@ export default function HeroSection() {
             variants={slideInFromLeft(0.2)}
             initial="hidden"
             animate="visible"
-            className="text-3xl md:text-6xl font-bold mb-4 text-center lg:text-left raj"
+            className="text-3xl md:text-6xl font-black mb-4 text-center lg:text-left raj"
           >
             The Future of{" "}
             <span className="text-[#3B82F6]">Decentralized Token</span> Trading

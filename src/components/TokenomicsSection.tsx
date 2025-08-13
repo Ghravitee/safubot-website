@@ -24,7 +24,7 @@ export default function TokenomicsSection() {
       <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px]  -bottom-10 right-[300px]  blur-[150px]"></div>
 
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-10 text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-10 text-center raj">
           <span className="text-[#3B82F6]">Tokenomics</span>
         </h2>
 

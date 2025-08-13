@@ -44,7 +44,7 @@ export default function RoadmapSection() {
       </div>
 
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-center">
+        <h2 className="text-3xl font-bold mb-10 text-center raj">
           Project <span className="text-[#3B82F6]">Roadmap</span>
         </h2>
 
@@ -77,7 +77,7 @@ export default function RoadmapSection() {
                       boxShadow: "inset 0 0 50px #a1aee514",
                     }}
                   >
-                    <h3 className="text-xl font-semibold mb-4 text-[#3B82F6]">
+                    <h3 className="text-xl font-semibold mb-4 text-[#3B82F6] raj">
                       {phase.title}
                     </h3>
                     <ul className="space-y-2">

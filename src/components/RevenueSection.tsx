@@ -25,7 +25,7 @@ export default function RevenueSection() {
       <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px] left-[300px]  blur-[150px]"></div>
       <div className="max-w-4xl mx-auto">
         <motion.h2
-          className="text-3xl font-bold mb-2 text-center"
+          className="text-3xl font-bold mb-2 text-center raj"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.2 }}
@@ -63,7 +63,7 @@ export default function RevenueSection() {
             ].map((card, i) => (
               <motion.div
                 key={i}
-                className="p-6 rounded-lg text-center relative"
+                className="p-8 rounded-lg text-center relative"
                 style={{
                   zIndex: 1,
                   backgroundColor: "#ffffff03",
@@ -80,7 +80,7 @@ export default function RevenueSection() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{card.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 raj">{card.title}</h3>
                 <p className="text-gray-400">{card.text}</p>
               </motion.div>
             ))}

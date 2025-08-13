@@ -55,7 +55,7 @@ export default function FeaturesSection() {
       <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px] left-0  blur-[150px]"></div>
       <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute bottom-20 right-0  blur-[150px]"></div>
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center raj">
           Why Choose <span className="text-[#3B82F6]">Bolt Trading Bot?</span>
         </h2>
 
@@ -91,7 +91,7 @@ export default function FeaturesSection() {
                   {feature.icon}
                 </div>
                 <div>
-                  <h2 className="text-xl mb-2">{feature.title}</h2>
+                  <h2 className="text-xl mb-2 raj">{feature.title}</h2>
                   {feature.description2 ? (
                     <ul className="list-disc list-inside text-sm text-[#a0aee5] space-y-1">
                       <li>{feature.description}</li>
