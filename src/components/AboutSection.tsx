@@ -27,7 +27,9 @@ export default function AboutSection() {
             <motion.div
               key={i}
               className={`p-6 rounded-lg relative ${
-                i === 4 ? "md:col-start-2 md:col-end-4" : "col-span-2"
+                i === 4
+                  ? "col-span-2 md:col-start-2 md:col-end-4"
+                  : "col-span-2"
               }`}
               style={{
                 zIndex: 1,

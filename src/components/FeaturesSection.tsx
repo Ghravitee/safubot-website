@@ -5,6 +5,7 @@ import {
   FiClock,
   FiBarChart2,
 } from "react-icons/fi";
+import { FaHandHoldingUsd } from "react-icons/fa";
 import { FaWallet } from "react-icons/fa";
 import { motion } from "framer-motion";
 // import bot2 from "../assets/bot-2.webp";
@@ -46,7 +47,7 @@ export default function FeaturesSection() {
       description: "Standard Fee: 0.5% per transaction",
       description2:
         "0% fees for $BOLT & $SAFU token holders (details coming soon)",
-      icon: <FiBarChart2 className="text-white" size={28} />,
+      icon: <FaHandHoldingUsd className="text-white" size={28} />,
     },
   ];
 

@@ -1,9 +1,31 @@
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
+import bot2 from "../assets/bot-2.webp";
+import bot3 from "../assets/bot-3.webp";
 
 export default function CtaSection() {
   return (
-    <section className="container mx-auto px-4 py-6 ">
+    <section className="mx-auto px-4 py-6 relative overflow-hidden">
+      <img
+        src={bot2}
+        alt=""
+        className="absolute -top-2 md:left-20 -left-[11rem]
+      w-[300px] h-[300px]     /* base size */
+      sm:w-[300px] sm:h-[300px] /* small screens */
+      lg:w-[600px] lg:h-[600px] /* large screens */
+      object-contain
+    "
+      />
+      <img
+        src={bot3}
+        alt=""
+        className="absolute -top-2 md:right-20 -right-[11rem]
+      w-[300px] h-[300px]     /* base size */
+      sm:w-[300px] sm:h-[300px] /* small screens */
+      lg:w-[600px] lg:h-[600px] /* large screens */
+      object-contain
+    "
+      />
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 raj">
           Join the <span className="text-[#3B82F6]">Movement</span>

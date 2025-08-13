@@ -20,8 +20,11 @@ export default function TokenomicsSection() {
   };
 
   return (
-    <section id="tokenomics" className="container mx-auto px-4 py-20 relative">
-      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px]  -bottom-10 right-[300px]  blur-[150px]"></div>
+    <section
+      id="tokenomics"
+      className="mx-auto px-4 lg:px-0 py-20 relative overflow-x-hidden"
+    >
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px]  -bottom-10 right-[300px] blur-[150px]"></div>
 
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold mb-10 text-center raj">
@@ -81,7 +84,14 @@ export default function TokenomicsSection() {
                 className="text-white text-left mt-4"
                 variants={itemVariants}
               >
-                Team Allocation: None — 100% fair launch via SafuLauncher
+                Team Allocation: None — 100% fair launch via{" "}
+                <a
+                  href="https://app.safulauncher.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SafuLauncher
+                </a>
               </motion.p>
             </motion.div>
           </motion.div>

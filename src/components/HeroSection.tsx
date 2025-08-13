@@ -11,9 +11,9 @@ import {
 
 export default function HeroSection() {
   return (
-    <section className="container mx-auto px-4 pt-4 hero-bg min-h-screen flex flex-col relative overflow-hidden">
+    <section className="mx-auto px-4 pt-4 hero-bg min-h-screen flex flex-col relative overflow-hidden">
       <div className="lg:size-[14rem] size-[4rem] -z-50 rounded-full  bg-[#3B82F6] absolute top-[100px] lg:top-[200px] left-0 right-0 mx-auto blur-[150px]"></div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-6xl mx-auto relative z-50">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto relative z-50">
         <div className="flex flex-col items-center lg:items-start px-4 relative">
           {/* Badge */}
           <motion.div

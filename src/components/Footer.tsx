@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex space-x-6 text-sm sm:text-base">
+          <div className="flex space-x-2 mdLspace-x-6 text-sm sm:text-base">
             <a href="#why-bolt" className="hover:text-[#3B82F6] transition">
               Why Bolt
             </a>
