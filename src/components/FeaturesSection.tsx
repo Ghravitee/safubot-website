@@ -7,6 +7,7 @@ import {
 } from "react-icons/fi";
 import { FaWallet } from "react-icons/fa";
 import { motion } from "framer-motion";
+// import bot2 from "../assets/bot-2.webp";
 
 export default function FeaturesSection() {
   const features = [
@@ -50,7 +51,9 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section id="why-bolt" className="container mx-auto px-4 py-10">
+    <section id="why-bolt" className="container mx-auto px-4 py-10 relative">
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px] left-0  blur-[150px]"></div>
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute bottom-20 right-0  blur-[150px]"></div>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
           Why Choose <span className="text-[#3B82F6]">Bolt Trading Bot?</span>

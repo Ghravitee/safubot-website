@@ -21,7 +21,8 @@ const itemVariants = {
 
 export default function RevenueSection() {
   return (
-    <section id="revenue" className="container mx-auto px-4 py-6">
+    <section id="revenue" className="container mx-auto px-4 py-6 relative">
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px] left-[300px]  blur-[150px]"></div>
       <div className="max-w-4xl mx-auto">
         <motion.h2
           className="text-3xl font-bold mb-2 text-center"

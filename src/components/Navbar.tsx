@@ -11,7 +11,7 @@ export default function Navbar({
   setMobileMenuOpen,
 }: NavbarProps) {
   return (
-    <nav className="container mx-auto px-4 py-6 flex justify-between items-center max-w-7xl">
+    <nav className="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl bg-transparent">
       <div className="flex items-center">
         <img src={logo} alt="" className="w-8 h-8" />
         <div className="text-white">

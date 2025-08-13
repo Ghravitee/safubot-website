@@ -20,7 +20,9 @@ export default function TokenomicsSection() {
   };
 
   return (
-    <section id="tokenomics" className="container mx-auto px-4 py-20">
+    <section id="tokenomics" className="container mx-auto px-4 py-20 relative">
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px]  -bottom-10 right-10  blur-[150px]"></div>
+
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold mb-10 text-center">
           <span className="text-[#3B82F6]">Tokenomics</span>

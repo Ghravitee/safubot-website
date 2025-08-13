@@ -32,6 +32,8 @@ export default function RoadmapSection() {
 
   return (
     <section id="roadmap" className="container mx-auto px-4 py-20 relative">
+      <div className="lg:size-[14rem] rounded-full bg-[#3B82F6] absolute top-[200px] right-[200px]  blur-[150px]"></div>
+
       {/* Full height background grid */}
       <div className="absolute inset-0 -z-50">
         <img
