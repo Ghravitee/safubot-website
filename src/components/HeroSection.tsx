@@ -12,9 +12,9 @@ import {
 export default function HeroSection() {
   return (
     <section className="container mx-auto px-4 pt-4 hero-bg min-h-screen flex flex-col relative overflow-hidden">
-      <div className="lg:size-[14rem] size-[4rem] z-30 rounded-full bg-[#3B82F6] absolute top-[100px] lg:top-[200px] left-0 right-0 mx-auto blur-[150px]"></div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-6xl mx-auto ">
-        <div className="flex flex-col items-center lg:items-start px-4">
+      <div className="lg:size-[14rem] size-[4rem] -z-50 rounded-full  bg-[#3B82F6] absolute top-[100px] lg:top-[200px] left-0 right-0 mx-auto blur-[150px]"></div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-6xl mx-auto relative z-50">
+        <div className="flex flex-col items-center lg:items-start px-4 relative">
           {/* Badge */}
           <motion.div
             variants={slideInFromTop}
@@ -31,7 +31,7 @@ export default function HeroSection() {
               boxShadow: "inset 0 0 50px #a1aee514",
             }}
           >
-            <div className="absolute inset-0 grad -z-1 bg-repeat bg-cover bg-center">
+            <div className="absolute inset-0 grad bg-repeat bg-cover bg-center">
               <img src={grid} alt="" width={400} height={400} />
             </div>
             <span className="lg:text-[1.5rem]">Bolt Trading Bot</span>
@@ -51,7 +51,7 @@ export default function HeroSection() {
             variants={fadeIn("up", "tween", 0.4, 0.8)}
             initial="hidden"
             animate="show"
-            className="text-lg lg:text-xl text-white mb-4 text-center lg:text-left"
+            className="text-lg lg:text-xl text-white mb-4 text-center lg:text-left relative z-40"
           >
             In the fast-paced world of DeFi, speed, precision, and security make
             the difference between a winning trade and a missed opportunity.
@@ -76,7 +76,7 @@ export default function HeroSection() {
             variants={zoomIn(0.8, 0.6)}
             initial="hidden"
             animate="show"
-            className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 "
+            className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 relative z-50"
           >
             <a
               href="https://t.me/safubolt"
@@ -105,7 +105,7 @@ export default function HeroSection() {
             </a>
             <a
               href=""
-              className="bg-gray-800 hover:bg-gray-700 px-8 py-4 flex items-center justify-center rounded-full font-medium transition w-[200px]"
+              className="bg-indigo-600 text-white border-2 border-white text-lg px-8 py-2 flex items-center justify-center rounded-full font-medium transition w-[200px]"
             >
               Buy $Bolt
             </a>
