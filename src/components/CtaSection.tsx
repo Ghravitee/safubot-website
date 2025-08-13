@@ -60,12 +60,12 @@ export default function CtaSection() {
         <div className="flex justify-center items-center gap-2 mt-1">
           <a
             href="https://x.com/SafuboltBot?t=pEUvZTb8NPtFkjvHSc1GZg&s=08"
-            className="p-3 rounded-full border border-black/50 dark:border-white/50 dark:text-white"
+            className="p-3 rounded-full border border-white/50 text-white"
             target="_blank"
             rel="noopener noreferrer"
           >
             {/* Twitter SVG */}
-            <FaXTwitter className="text-black dark:text-white text-[15px]" />
+            <FaXTwitter className="text-white text-[15px]" />
           </a>
 
           <a
@@ -74,7 +74,7 @@ export default function CtaSection() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTelegram className="text-black dark:text-white text-[40px]" />
+            <FaTelegram className="text-white text-[40px]" />
           </a>
         </div>
       </div>
