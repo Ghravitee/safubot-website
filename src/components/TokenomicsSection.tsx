@@ -89,6 +89,7 @@ export default function TokenomicsSection() {
                   href="https://app.safulauncher.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="underline text-blue-700"
                 >
                   SafuLauncher
                 </a>
