@@ -63,8 +63,8 @@ export default function TokenomicsSection() {
                 variants={containerVariants}
               >
                 {[
-                  ["Token Name:", "$BOLT"],
-                  ["Ticker:", "BOLT"],
+                  ["Token Name:", "BOLT"],
+                  ["Ticker:", "$BOLT"],
                   ["Total Supply:", "10,000,000 $BOLT"],
                   ["Tax:", "5% Buy / 5% Sell"],
                 ].map(([label, value], idx) => (
