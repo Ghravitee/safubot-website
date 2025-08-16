@@ -79,7 +79,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 relative z-50"
           >
             <a
-              href="https://t.me/safubolt"
+              href="https://t.me/SafuBoltBot"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center w-[200px] px-12 py-2 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
@@ -104,7 +104,7 @@ export default function HeroSection() {
               <span className="relative">Launch Bot</span>
             </a>
             <a
-              href=""
+              href="https://app.safulauncher.com/trade/0x62D90C3804681c1a4e0C87B3f0E0588B8C3029e7"
               className="bg-indigo-600 text-white border-2 border-white text-lg px-8 py-2 flex items-center justify-center rounded-full font-medium transition w-[200px]"
             >
               Buy $Bolt
