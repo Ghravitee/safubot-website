@@ -59,7 +59,7 @@ export default function CtaSection() {
 
         <div className="flex justify-center items-center gap-2 mt-1">
           <a
-            href="https://x.com/SafuboltBot?t=pEUvZTb8NPtFkjvHSc1GZg&s=08"
+            href="https://x.com/safubolt_bot"
             className="p-3 rounded-full border border-white/50 text-white"
             target="_blank"
             rel="noopener noreferrer"
